@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('fonts/OpenSans-Bold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url('/fonts/OpenSans-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url('/fonts/OpenSans-Regular.ttf');
+  }
+
+.project .project-header {
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 12px;
+}
+    
+.project-header h2{
+    font-size: 20px;
+    font-family: "OpenSans-Regular";
+    font-weight: bold;
+    
+
+}
+.project-header img{
+    padding-top: 3px;
+}
+.box-content{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.box-content table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.box-content img{
+    width: 100%;
+}
+.box-content p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1c498d;
+    padding: 16px 20px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.box-content table td{
+    border-spacing: 10px;
+
+
+}
+.box-content table tr td{
+    padding: 10px;
+}
+
+/* css thứ tự trang */
+.project-stt{
+    margin: 30px 0 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.project-stt table{
+
+    align-items: center;
+    justify-content: center;
+}
+.project-stt table tr td {
+    
+    padding: 5px ;
+}
+.project-stt button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c6c6c6;
+}
+.project-stt .but-st{
+    color: white;
+   background-color: #20385d;
+}
+.project-stt .but-next:hover{
+    color: pink;
+    
+}
+.box_item.box_item-special {
+    border-bottom: 4px solid #1c498d;
+    padding: 20px 0 0 0;
+    margin-top: 20px;
+}
+.box_text {
+    justify-content: space-between;
+    background-color:  #f6f6f6;
+}
+.box_info {
+    margin: 10px 10px;
+
+}
+.box_info h3 p{
+    margin: 5px 0;
+}
+.box_info h3 {
+    font-size: 26px;
+    
+    margin: 10px 0;
+    color: #1c498d;
+
+}
+.box_link {
+    display: flex;
+    color: #fff;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+
+.btn_link {
+    background-color: #1c498d;
+    display: inline-block;
+    padding: 6px 20px;
+}
+
+.btn_link:hover {
+    color: var(--color-yellow);
+    text-decoration: none;
+}
+
+.btn_link span {
+    text-transform: uppercase;
+}
+@media(max-width:768px) {
+    .img-box-first {
+        width: 100%;
+    }
+
+    .box_img img {
+        width: 100%;
+        display: block;
+    }
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('fonts/OpenSans-Bold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url('/fonts/OpenSans-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url('/fonts/OpenSans-Regular.ttf');
+  }
+.service-content{
+    margin-left: 20px;
+}
+.service-content .service-first p{
+    margin-left: 20px;
+    font-weight:bold;
+    margin: 20px 0 0;
+    font-size: 16px;
+    
+}
+.service-content .service-next p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 17px 0 10px 0;
+    
+}
+.service .service-header {
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 12px;
+}
+    
+.service-header h2{
+    font-size: 20px;
+    font-family: "OpenSans-Regular";
+    font-weight: bold;
+    padding-top: 5px;
+
+
+}
+.service-header img{
+    padding-top: 3px;
+}
+
+.service-content .service-img{
+   
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+
+}
+.service-content .service-img img{
+    width: 100%;
+}
+.service-content .service-next ul li{
+    list-style-type: none;
+    font-weight: normal;
+    margin: 5px 0;
+
+    
+}
+.service-content h4{
+    font-size: 22px;
+    font-weight: bold;
+   
+    margin-top: 10px;
+}

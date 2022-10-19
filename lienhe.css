@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('fonts/OpenSans-Bold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url('/fonts/OpenSans-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url('/fonts/OpenSans-Regular.ttf');
+  }
+/* css phần phản hồi */
+
+.contact {
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f4f4f4;
+
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px 12px;
+
+}
+.tieude{
+    text-align: center;
+    font-size: 16px;
+    color: var(--color-text);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.tieude h5 {
+    margin-bottom: 10px;
+    color: #16498f;
+
+}
+.form-phanhoi input {
+width: 100%;
+height: 40px;
+border-radius: 10px;
+border: 1px solid  #d7d7d7;
+}
+.form-phanhoi .noidung{
+    height: 100%;
+}
+.form-phanhoi:last-child {
+    grid-row: 2/5;
+}
+
+.form-phanhoi:nth-child(2) {
+    grid-row: 2/3;
+}
+
+.form-phanhoi:nth-child(3) {
+    grid-row: 3/4;
+}
+
+.form-phanhoi:nth-child(4) {
+    grid-row: 4/5;
+}
+.form-send{
+    margin-top: 20px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(10, 71, 121);
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+/* css phần bản đồ */
+table{
+    border-collapse: collapse;
+    width: 700px;
+    margin-left:  auto ;
+    margin-right:auto ;
+    margin-top: 27px ;
+   
+    
+}
+table, td{
+    border: 10px
+}
+td{
+    padding: 15px
+}

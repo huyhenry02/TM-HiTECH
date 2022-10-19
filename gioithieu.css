@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('fonts/OpenSans-Bold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url('/fonts/OpenSans-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url('/fonts/OpenSans-Regular.ttf');
+  }
+
+.intro .intro-header {
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 12px;
+}
+    
+.intro-header h2{
+    font-size: 20px;
+    font-family: "OpenSans-Regular";
+    font-weight: bold;
+    padding-top: 5px;
+
+
+}
+
+.intro-header img{
+    padding-top: 3px;
+}
+table{
+    border-collapse: collapse;
+    width: 33.3333%;
+    padding-left:  2px ;
+    padding-right:2px ;
+    margin-top: 10px ;
+   
+    
+}
+table, td{
+    border:padding;
+}
+td{
+    padding: 5px;
+}
+.intro-content{
+    padding: 20px 0 0 0;
+    
+    margin-left: 10px;
+
+}
+.intro-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.intro-content ol li{
+    margin-bottom: 10px;
+    margin: 5px,0;
+}
+.intro-content ol{
+margin-left: 20px ;
+margin-top: 20px;
+}
+.intro-content ul li{
+    list-style: none;
+    margin: 5px 0;
+    font-weight: normal;
+}
+.intro-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro-content h4{
+    font-size: 18px ;
+    font-weight: bold ; 
+}
+.intro-content h3{
+    font-size: 20px;
+   
+    text-transform: uppercase;
+}
+.intro-content h5{
+margin: 10px 0;
+font-size: 16px;
+}
+.intro-content p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+p.tM{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
